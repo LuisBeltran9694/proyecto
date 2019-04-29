@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/Sistema.css">
+</head>
+<body>
+	<div class="login">
+		<img class="avatar" src="img/candado.png">
+		<h1>Login Here</h1>
+		<form action="" method="post" id="form">
+			<!--Username-->
+			<label for="Username">Username</label>
+			<input type="text" id="username" placeholder="Enter Username">
+			
+			<!--Password-->
+			<label for="Password">Password</label>
+			<input type="Password"id="password" placeholder="Enter Password">
+			
+			<input type="submit" id="submit" value="Log In">
+			<a href="OlvidoContraseña.html">Olvide mi contraseña</a>
+		</form>
+		</form>
+	</div>
+	<script>
+	(function(){
+	var form = document.getElementById("form");
+	var username = document.getElementById("username");
+	var password = document.getElementById("password");
+	var submit = document.getElementById("submit");
+
+	submit.addEventListener("click", function(e){
+		if(username.value == "")
+		{
+			alert("El campo username es requerido");
+			username.focus();
+			e.preventDefault();
+		}
+		else if(password.value == "")
+		{
+			alert("El campo password es requerido");
+			password.focus();
+			e.preventDefault();
+		}
+		else {
+			form.addEventListener("submit"); 
+		}
+	});
+})();
+	</script>
+</body>
+</html>

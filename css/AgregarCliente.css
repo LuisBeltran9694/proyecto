@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url('../img/c.jpg');
+	background-repeat:no-repeat center top;
+	background-size: cover;
+	font-family: sams-serif;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.Agregarcliente{
+	width: 600px;
+	height: 1175px;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	top: 100%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+	padding: 75px 30px;
+}
+
+.Agregarcliente h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.AgregarCliente label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.Agregarcliente input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Agregarcliente input radio{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Agregarcliente input[type="text"],
+.Agregarcliente input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+} 
+
+.Agregarcliente input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+select {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+/*Responsitive*/
+@media (max-width: 1000px){
+	form{
+		width: 100%;
+	}
+}

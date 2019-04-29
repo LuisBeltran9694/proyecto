@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url('../img/c.jpg');
+	background-repeat:no-repeat center top;
+	background-size: cover;
+	font-family: sams-serif;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.Usuario{
+	width: 500px;
+	height: 950px;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	top: 80%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+	padding: 75px 30px;
+}
+
+.Usuario h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.Usuario label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.Usuario input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.Usuario input[type="text"],
+.Usuario input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+} 
+
+.Usuario input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 35px;
+	background: #b80f22;
+	color: #fff;
+	margin-top: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+select {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+/*Responsitive*/
+@media (max-width: 1000px){
+	form{
+		width: 100%;
+	}
+}
+
+ 
+
+
+ 

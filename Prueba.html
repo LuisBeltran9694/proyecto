@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/Usuario.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#"> <span class="primero"><i class="icon icon-home"></i></span> Inicio</a></li>
+
+
+				<li><a href="#"> <span class="segundo"><i class="icon icon-cogs"></i></span> Administrador </a>
+					<ul>
+						<li><a href="#Usuario">Agregar Usuario</a></li>
+						<li><a href="#">Editar Usuario</a></li>
+						<li><a href="AgregarAgencia.html">Agregar Agencia</a></li>
+						<li><a href="#">Agencias</a></li>
+					</ul>
+				</li>
+				<li><a href="#"> <span class="tercero"><i class="icon icon-profile"></i></span> Clientes</a>
+					<ul>
+						<li><a href="AgregarCliente.html">Agregar Cliente</a></li>
+						<li><a href="#">Editar Cliente</a></li>
+						<li><a href="#">Cartera de Clientes</a></li>
+						<li><a href="#">Capacitaciones</a></li>
+					</ul>
+				</li>
+				<li><a href="Servicios.html"> <span class="cuarto"><i class="icon icon-price-tag"></i></span> Servicios</a></li>
+
+				<li><a href="#"> <span class="quinto"><i class="icon icon-pencil"></i></span> Consultar</a>
+					<ul>
+						<li><a href="#">Transaccion</a></li>
+						<li><a href="#">Prestamo</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"> <span class="sexto"><i class="icon icon-stats-dots"></i></span> Reportes</a>
+					<ul>
+						<li><a href="#">Generar</a></li>
+						<li><a href="#">Imprimir</a></li>
+					</ul>
+				</li>
+
+
+				<li><a href="Sistema.html"> <span class="septimo"><i class="icon icon-exit"></i></span> Salir</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div class="Usuario">
+		<h1>Bienvenido al administrador de Usuario</h1>
+		<br />
+
+		<form>
+			<h4>Datos del empleado</h4>
+
+			<label for="Username">Nombre:</label>
+			<input type="text" placeholder="Nombre del Usuario">
+			<br />
+
+			<label for="Username">Codigo:</label>
+			<input type="text" placeholder="Codigo">
+			<br />
+
+
+			<label for="Usuario">Correo:</label>
+			<input type="text" placeholder="Nombre del Usuario">
+			<br />
+
+			<label for="Usuario">Usuario:</label>
+			<input type="text" placeholder="Correo">
+			<br />
+
+			<label for="Username">Contraseña:</label>
+			<input type="text" placeholder="Contraseña">
+			<br />
+
+			<label for="Username">Sucursal:</label>
+			<input type="text" placeholder="Sucursal Destinada">
+			<br />
+
+			<label for="Username">Capacitaciones:</label>
+			<input type="text" placeholder="Codigo">
+			<br />
+	
+			<label for="Username">Ingreso:</label>
+			<input type="text" placeholder="Fecha de Ingreso">
+			<br />
+
+			<label for="Username">Cargo:</label>
+			<input type="text" placeholder="Cargo desempeñado">
+			<br />
+
+
+
+			<label for="Usuario">Tipo de usuario:</label>
+			<select name="Usuario" id="Usuario">
+				<option value="">Super Administrador</option>
+				<option value="">Administrador</option>
+				<option value="">Usuario</option>
+			</select>
+
+			<br>
+			<br>
+			<br>
+			<br>
+				
+			
+			<input type="submit" value="Agregar Usuario">
+		</form>
+	</div>
+
+</body>
+</html>
